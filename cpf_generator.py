@@ -1,7 +1,7 @@
 import random
 from colorama import Fore, Style
 
-regiao_fiscal = str(input("Digite a sigla de seu estado natal, exemplo: DF, GO, MT...: ")).upper().strip()
+regiao_fiscal = str(input("Digite seu UF: ")).upper().strip()
 quantidade = int(input("Quantos cpfs a ser gerados? "))
 
 REGIOES = {

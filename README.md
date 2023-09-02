@@ -1,6 +1,6 @@
-# CPF - Generator
-Generates a random CPF according to your region on Brazil
+# Credentials generator
+CPF & CNPJ generator
 
 ```bash
-python3 cpf_generator.py
+python3 credentials_generator.py
 ```

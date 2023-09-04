@@ -158,7 +158,7 @@ try:
                     cpf = gerar_cpf(_regiao)
                     print(f"{Fore.BLUE}{Style.BRIGHT}{cpf}{Fore.RESET}{Style.RESET_ALL}")
             elif comando == 2:
-                cnpj = gerar_cnpj(_regiao)
+                cnpj = gerar_cnpj()
                 print(f"{Fore.BLUE}{Style.BRIGHT}{cnpj}{Fore.RESET}{Style.RESET_ALL}")
             else:
                 print("Comando errado, tente novamente!")

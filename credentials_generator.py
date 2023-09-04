@@ -145,7 +145,7 @@ try:
 """
         ))
         quantidade = int(input("Quantos a ser gerado? "))
-        regiao_fiscal = input("Digite seu UF: ")
+        regiao_fiscal = input("Digite seu UF: ").upper()
 
         print("\n")
         for i in range(quantidade):
